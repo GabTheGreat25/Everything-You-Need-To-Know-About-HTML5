@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  color: white;
+}
+
+body {
+  display: grid;
+  grid-template-rows: 1fr 10fr 1fr;
+}
+
+header {
+  background: red;
+  padding: 2rem;
+}
+
+main {
+  background: blue;
+  padding: 2rem;
+  display: grid;
+  justify-content: center;
+}
+
+main a {
+  border: 1px solid black;
+  width: fit-content;
+  height: fit-content;
+  padding: 0.5rem 1.5rem;
+  text-decoration: none;
+  background: white;
+  color: black;
+}
+
+footer {
+  background: green;
+  padding: 2rem;
+}

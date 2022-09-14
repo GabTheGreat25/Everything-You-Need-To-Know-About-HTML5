@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  position: relative;
+}
+
+code {
+  font-weight: 700;
+  font-size: 1.25rem;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  background: lightskyblue;
+}
+
+fieldset {
+  padding: 0.5rem 1rem;
+}
+
+main {
+  padding: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr) 2fr;
+  gap: 1rem;
+}
+
+details {
+  padding: 1rem 0;
+}
+
+fieldset {
+  margin-top: 0.5rem;
+}
+
+.center {
+  font-size: 1.5rem;
+  border: 2px solid black;
+  padding: 2rem;
+  position: absolute;
+  top: 115%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+#footer {
+  padding: 2rem;
+}
+
+#click {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+#click div .thy-btn {
+  background: #4e9caf;
+  padding: 0.75rem 2rem;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+}
+
+#next {
+  display: grid;
+  justify-content: end;
+  cursor: pointer;
+}
+
+#back {
+  display: grid;
+  justify-content: start;
+  cursor: pointer;
+}
