@@ -5,7 +5,6 @@
   text-align: center;
   height: 100%;
   width: 100%;
-  color: white;
 }
 
 body {
@@ -16,6 +15,7 @@ body {
 header {
   background: red;
   padding: 2rem;
+  font-size: 2rem;
 }
 
 main {
@@ -23,19 +23,59 @@ main {
   padding: 2rem;
   display: grid;
   justify-content: center;
-}
-
-main a {
-  border: 1px solid black;
-  width: fit-content;
-  height: fit-content;
-  padding: 0.5rem 1.5rem;
-  text-decoration: none;
-  background: white;
-  color: black;
+  font-size: 2rem;
 }
 
 footer {
   background: green;
   padding: 2rem;
+  font-size: 2rem;
+}
+
+#content {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  gap: 2rem;
+  justify-content: center;
+  height: fit-content;
+  background: lightcoral;
+  font-size: 1.25rem;
+}
+
+div .thy-btn {
+  background: #4e9caf;
+  padding: 0.75rem 2rem;
+  text-align: center;
+  border-radius: 5px;
+  font-weight: bold;
+  height: fit-content;
+}
+
+#next {
+  display: grid;
+  justify-content: end;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+}
+
+#back {
+  display: grid;
+  justify-content: start;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+}
+
+.center {
+  font-size: 1.5rem;
+  border: 2px solid black;
+  padding: 2rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
 }

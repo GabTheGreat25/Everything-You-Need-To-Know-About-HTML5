@@ -1,15 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 code {
   font-weight: 700;
   font-size: 1.25rem;
-}
-
-html {
-  height: fit-content;
-  width: fit-content;
-}
-
-body {
-  background: lightskyblue;
 }
 
 fieldset {
@@ -18,9 +15,14 @@ fieldset {
 
 main {
   padding: 1rem;
-  display: grid;
-  grid-template-columns: repeat(4, 1fr) 2fr;
   gap: 1rem;
+  background: rgba(144, 238, 144, 0.8);
+}
+
+main div {
+  border: 1px solid black;
+  padding: 1rem;
+  margin: 1rem 0;
 }
 
 details {
@@ -37,12 +39,13 @@ a {
 }
 
 #footer {
-  padding: 3rem;
+  padding: 2rem;
   display: grid;
   grid-template-columns: 1fr 4fr 1fr;
   gap: 2rem;
   justify-content: center;
-  margin: 3.5rem 0;
+  height: fit-content;
+  background: lightcoral;
 }
 
 div .thy-btn {
@@ -58,12 +61,14 @@ div .thy-btn {
 #next {
   display: grid;
   justify-content: end;
+  align-items: center;
   cursor: pointer;
 }
 
 #back {
   display: grid;
   justify-content: start;
+  align-items: center;
   cursor: pointer;
 }
 
@@ -71,5 +76,9 @@ div .thy-btn {
   font-size: 1.5rem;
   border: 2px solid black;
   padding: 2rem;
+  text-align: center;
+}
+
+h1 {
   text-align: center;
 }

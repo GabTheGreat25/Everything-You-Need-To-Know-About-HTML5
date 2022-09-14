@@ -15,7 +15,6 @@ code {
 
 body {
   margin: 0;
-  overflow-x: hidden;
 }
 
 main {
@@ -147,5 +146,51 @@ select {
 #back {
   display: grid;
   justify-content: start;
+  cursor: pointer;
+}
+
+#footer {
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  gap: 2rem;
+  justify-content: center;
+  height: fit-content;
+  background: lightsalmon;
+}
+
+div .thy-btn {
+  background: #4e9caf;
+  padding: 0.75rem 2rem;
+  text-align: center;
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  height: fit-content;
+}
+
+#next {
+  display: grid;
+  justify-content: end;
+  align-items: center;
+  cursor: pointer;
+}
+
+#back {
+  display: grid;
+  justify-content: start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.center {
+  font-size: 1.5rem;
+  border: 2px solid black;
+  padding: 2rem;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
   cursor: pointer;
 }
