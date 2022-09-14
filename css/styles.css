@@ -5,6 +5,10 @@
   width: 100%;
 }
 
+html {
+  width: fit-content;
+}
+
 code {
   font-size: 1.25rem;
 }

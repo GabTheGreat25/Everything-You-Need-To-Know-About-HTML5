@@ -1,17 +1,11 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-  position: relative;
-}
-
 code {
   font-weight: 700;
   font-size: 1.25rem;
 }
 
 html {
-  height: 100%;
+  height: fit-content;
+  width: fit-content;
 }
 
 body {
@@ -37,41 +31,28 @@ fieldset {
   margin-top: 0.5rem;
 }
 
-.center {
-  font-size: 1.5rem;
-  border: 2px solid black;
-  padding: 2rem;
-  position: absolute;
-  top: 115%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  -o-transform: translate(-50%, -50%);
-}
-
 a {
   text-decoration: none;
   cursor: pointer;
 }
 
 #footer {
-  padding: 2rem;
-}
-
-#click {
+  padding: 3rem;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 4fr 1fr;
+  gap: 2rem;
+  justify-content: center;
+  margin: 3.5rem 0;
 }
 
-#click div .thy-btn {
+div .thy-btn {
   background: #4e9caf;
   padding: 0.75rem 2rem;
   text-align: center;
   border-radius: 5px;
   color: white;
   font-weight: bold;
+  height: fit-content;
 }
 
 #next {
@@ -84,4 +65,11 @@ a {
   display: grid;
   justify-content: start;
   cursor: pointer;
+}
+
+.center {
+  font-size: 1.5rem;
+  border: 2px solid black;
+  padding: 2rem;
+  text-align: center;
 }
