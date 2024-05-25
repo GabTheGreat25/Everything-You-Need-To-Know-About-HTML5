@@ -1,51 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Creating a navbar, sidebar, and body using only div and grid</title>
     <link rel="stylesheet" href="css/stylex.css" />
-</head>
+  </head>
 
-<body>
+  <body>
     <div class="parent">
-        <!-- Parent Container -->
-        <div class="navbar">
-            <!-- Navbar Container -->
-            <span id="wrapper">
-                <h3>How To Make A Simple Website</h3>
-            </span>
-            <p class="navbar-title"><span>Navbar</span>
-            </p>
-            <button class="navbar-button">Log Out</button>
+      <!-- Parent Container -->
+      <div class="navbar">
+        <!-- Navbar Container -->
+        <span id="wrapper">
+          <h3>How To Make A Simple Website</h3>
+        </span>
+        <p class="navbar-title"><span>Navbar</span></p>
+        <button class="navbar-button">Log Out</button>
+      </div>
+      <div class="child">
+        <div class="sidebar">
+          <p class="navbar-title"><span>Sidebar</span></p>
+          <!-- Sidebar Container -->
         </div>
-        <div class="child">
-            <div class="sidebar">
-                <p class="navbar-title"><span>Sidebar</span>
-                </p>
-                <!-- Sidebar Container -->
-            </div>
-            <div class="content">
-                <p class="navbar-title"><span>Main Content</span>
-                </p>
-                <!-- Body Container -->
-            </div>
+        <div class="content">
+          <p class="navbar-title"><span>Main Content</span></p>
+          <!-- Body Container -->
         </div>
+      </div>
     </div>
     <div id="footer">
-        <div id="back">
-            <a class="thy-btn" onclick="window.location= 'other.html'">Back</a>
-        </div>
-        <div class="center">
-            <span>Created By: <strong>Gabriel Mendoza</strong> | </span>
-            Github Account: <a href="https://github.com/GabTheGreat25">GabTheGreat</a>
-        </div>
-        <div id="next">
-            <a class="thy-btn" onclick="window.location= 'lorem.html'">Next</a>
-        </div>
+      <div id="back">
+        <a class="thy-btn" onclick="window.location= 'ipsum.html'">Back</a>
+      </div>
+      <div class="center">
+        <span>Created By: <strong>Gabriel Mendoza</strong> | </span>
+        Github Account:
+        <a href="https://github.com/GabTheGreat25">GabTheGreat</a>
+      </div>
+      <div id="next">
+        <a class="thy-btn" onclick="window.location= 'index.html'">Next</a>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>

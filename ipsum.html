@@ -1,104 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="icon" href="pics/html5.png" type="image/x-icon" />
     <link rel="stylesheet" href="css/stylez.css" />
     <title>Other Tags That Is Least Use</title>
-</head>
+  </head>
 
-<body>
+  <body>
     <main>
-        <h1>Other HTML Tags That Might Be Useful For Extra User Experience</h1>
+      <h1>Other HTML Tags That Might Be Useful For Extra User Experience</h1>
+      <div>
+        <code
+          >&lt;optgroup&gt; Use to group related options in a &lt;select&gt;
+          element (drop-down list)&lt;/optgroup&gt;</code
+        >
+        <br />
+        <br />
+        <code
+          >&lt;option&gt; Defines an option in a select
+          list&lt;/option&gt;</code
+        >
+        <br />
+        <br />
+        <label>Choose a car:</label>
+        <select>
+          <optgroup label="Swedish Cars">
+            <option>Volvo</option>
+            <option>Saab</option>
+          </optgroup>
+          <optgroup label="German Cars">
+            <option>Mercedes</option>
+            <option>Audi</option>
+          </optgroup>
+        </select>
+        <br /><br />
+        <input type="submit" value="Submit" />
+      </div>
+
+      <div>
+        <code
+          >&lt;legend&gt; Defines a caption for the &lt;fieldset&gt;
+          element&lt;/legend&gt;</code
+        >
+        <fieldset>
+          <legend>Enter Your Information:</legend>
+          <label for="fname">First name:</label>
+          <input type="text" id="fname" name="fname" /><br /><br />
+          <label for="lname">Last name:</label>
+          <input type="text" id="lname" name="lname" /><br /><br />
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" /><br /><br />
+          <label for="birthday">Birthday:</label>
+          <input type="date" id="birthday" name="birthday" /><br /><br />
+          <input type="submit" value="Submit" />
+        </fieldset>
+      </div>
+
+      <div>
+        <code
+          >&lt;summary&gt; Defines a visible heading for the &lt;details&gt;
+          element. The heading can be clicked to view/hide the
+          details&lt;/summary&gt;</code
+        >
+        <br />
+        <br />
+        <code
+          >&lt;details&gt; Specifies additional details that the user can open
+          and close on demand&lt;/details&gt;</code
+        >
+
+        <details>
+          <summary>Epcot Center</summary>
+          <p>
+            Epcot is a theme park at Walt Disney World Resort featuring exciting
+            attractions, international pavilions, award-winning fireworks and
+            seasonal special events.
+          </p>
+        </details>
+      </div>
+
+      <div>
+        <code
+          >&lt;mark&gt; Defines text that should be marked or
+          highlighted.&lt;/mark&gt;</code
+        >
         <div>
-            <code>&lt;optgroup&gt; Use to group related options in a &lt;select&gt; element (drop-down list)&lt;/optgroup&gt;</code>
-            <br /> <br />
-            <code>&lt;option&gt; Defines an option in a select list&lt;/option&gt;</code>
-            <br /> <br />
-            <label>Choose a car:</label>
-            <select>
-                <optgroup label="Swedish Cars">
-                    <option>Volvo</option>
-                    <option>Saab</option>
-                </optgroup>
-                <optgroup label="German Cars">
-                    <option>Mercedes</option>
-                    <option>Audi</option>
-                </optgroup>
-            </select>
-            <br><br>
-            <input type="submit" value="Submit">
+          <p>Example:</p>
+          <p>Do not forget to buy <mark>milk</mark> today.</p>
         </div>
+      </div>
 
+      <div>
+        <code
+          >&lt;wbr&gt; (Word Break Opportunity) tag specifies where in a text it
+          would be ok to add a line-break) &lt;/wbr&gt;</code
+        >
         <div>
-            <code>&lt;legend&gt; Defines a caption for the &lt;fieldset&gt; element&lt;/legend&gt;</code>
-            <fieldset>
-                <legend>Enter Your Information:</legend>
-                <label for="fname">First name:</label>
-                <input type="text" id="fname" name="fname"><br><br>
-                <label for="lname">Last name:</label>
-                <input type="text" id="lname" name="lname"><br><br>
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email"><br><br>
-                <label for="birthday">Birthday:</label>
-                <input type="date" id="birthday" name="birthday"><br><br>
-                <input type="submit" value="Submit">
-            </fieldset>
+          <p>Example:</p>
+          <span>
+            <p>
+              Try to shrink the browser window, to view how the very long word
+              in the paragraph below will break:
+            </p>
+
+            <p>
+              This is a very
+              <mark
+                ><wbr />longwordthatwillbreakatspecificccccccccccccccccccccc<wbr /> </mark
+              >placeswhenthebrowserwindowisresized.
+            </p>
+          </span>
         </div>
-
-        <div>
-            <code>&lt;summary&gt; Defines a visible heading for the &lt;details&gt; element. The heading can be clicked to view/hide the details&lt;/summary&gt;</code>
-            <br /> <br />
-            <code>&lt;details&gt; Specifies additional details that the user can open and close on demand&lt;/details&gt;</code>
-
-            <details>
-                <summary>Epcot Center</summary>
-                <p>Epcot is a theme park at Walt Disney World Resort featuring exciting attractions, international
-                    pavilions,
-                    award-winning fireworks and seasonal special events.</p>
-            </details>
-        </div>
-
-        <div>
-            <code>&lt;mark&gt; Defines text that should be marked or highlighted.&lt;/mark&gt;</code>
-            <div>
-                <p>Example:</p>
-                <p>Do not forget to buy <mark>milk</mark> today.</p>
-            </div>
-        </div>
-
-        <div>
-            <code>&lt;wbr&gt; (Word Break Opportunity) tag specifies where in a text it would be ok to add a line-break) &lt;/wbr&gt;</code>
-            <div>
-                <p>Example:</p>
-                <span>
-                    <p>Try to shrink the browser window, to view how the very long word in
-                        the paragraph below will break:</p>
-
-                    <p>This is a very
-                        <mark><wbr>longwordthatwillbreakatspecificccccccccccccccccccccc<wbr>
-                        </mark>placeswhenthebrowserwindowisresized.
-                    </p>
-                </span>
-            </div>
-        </div>
-
+      </div>
     </main>
     <div id="footer">
-        <div id="back">
-            <a class="thy-btn" onclick="window.location= 'ipsum.html'">Back</a>
-        </div>
-        <div class="center">
-            <span>Created By: <strong>Gabriel Mendoza</strong> | </span>
-            Github Account: <a href="https://github.com/GabTheGreat25">GabTheGreat</a>
-        </div>
-        <div id="next">
-            <a class="thy-btn" onclick="window.location= 'website.html'">Next</a>
-        </div>
+      <div id="back">
+        <a class="thy-btn" onclick="window.location= 'lorem.html'">Back</a>
+      </div>
+      <div class="center">
+        <span>Created By: <strong>Gabriel Mendoza</strong> | </span>
+        Github Account:
+        <a href="https://github.com/GabTheGreat25">GabTheGreat</a>
+      </div>
+      <div id="next">
+        <a class="thy-btn" onclick="window.location= 'website.html'">Next</a>
+      </div>
     </div>
-</body>
-
+  </body>
 </html>
